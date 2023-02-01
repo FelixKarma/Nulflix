@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: local("AmaticSC.woff"), url('https://fonts.googleapis.com/css?family=Amatic SC');
+  }
+
+
+body{
+    background-color: #1D252F;
+}*
+.navbar{
+
+    background-color: #FE0606;
+    height: 75px; /* hauteur */
+    margin: -8px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.title{
+
+    /* display: inline; */
+    font-family: 'Amatic SC';font-size: 60px;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.imgg{
+    bottom: -10px;
+    position: relative;
+}
+
+h4, h1{
+    margin: 0;
+}
