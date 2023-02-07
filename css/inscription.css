@@ -4,26 +4,24 @@
   }
 
 
+
 body{
     background-color: #1D252F;
+    overflow: hidden;
+    
 }
 
 .align_center{
     text-align: center;
-}
 
+}
 
 .navbar{
 
     background-color: #FE0606;
     height: 50px;
     margin: -8px;
-    /* position: relative; */
     display: flex;
-    /* align-items: center; */
-    /* flex-direction: row; */
-    justify-content: space-between;
-    position: relative;
 
 }
 
@@ -33,13 +31,13 @@ body{
     font-family: 'Amatic SC';font-size: 40px;
     color: aliceblue;
     
+    
 }
 
 .imgg{
     bottom: -10px;
-    left: 15px;
-    bottom: 5px;
-    position: absolute;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 h4, h1{
@@ -47,24 +45,23 @@ h4, h1{
     
 }
 
-.span_nulflix{
+.div_nulflix{
 
     position: absolute ;
-    padding-left: 85px;
+    padding-left: 40px;
     left: -1em;
+    overflow:hidden;
+    z-index: 1;
 }
 
 
-.span_nulflix_titre{
+.div_nulflix_titre{
 
-    position: absolute ;
-    left: 32em;
+  padding-left: 32em;
 }
 
 .text_mate{
-    position: absolute;
-    left: 100px;
-    top: 30px;
+    padding-left: 200px;
 }
 
 .maindiv{
@@ -76,7 +73,8 @@ h4, h1{
     align-items: center;
     height: 100vh;
     justify-content: center;
-    transform: translateY(-10%);    
+    transform: translateY(-40%);    
+    z-index: 2;
     
   }
 
@@ -96,7 +94,7 @@ h4, h1{
     height: 60px;
     font-size: 20px;
     position: relative;
-    font-family: 'Amatic SC';font-size: 50px;
+    font-family: 'Amatic SC';font-size: 40px;
 
   }
   
@@ -113,14 +111,24 @@ h4, h1{
   }
   
   .center_pasinscrit{
-    transform: translateY(-750%)
+    transform: translateY(-1200%)
   }
 
   .center_signin{
-    transform: translateY(-350px);
+    transform: translateY(-600px);
   }
 
-  a:hover{
+
+
+  #btn-hover:hover{
     cursor: pointer ;
     opacity: 15%;
+    
   }
+
+
+  li{
+    list-style: none;
+  }
+
+
