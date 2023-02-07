@@ -4,35 +4,131 @@
   }
 
 
+
 body{
     background-color: #1D252F;
-}*
+    overflow: hidden;
+    
+}
+
+.align_center{
+    text-align: center;
+
+}
+
 .navbar{
 
     background-color: #FE0606;
-    height: 75px; /* hauteur */
+    height: 50px;
     margin: -8px;
-    position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
 }
 
 .title{
 
     /* display: inline; */
-    font-family: 'Amatic SC';font-size: 60px;
-    text-align: center;
+    font-family: 'Amatic SC';font-size: 40px;
     color: aliceblue;
-
+    
+    
 }
 
 .imgg{
     bottom: -10px;
-    position: relative;
+    margin-left: 15px;
+    margin-top: 5px;
 }
 
 h4, h1{
     margin: 0;
+    
 }
+
+.div_nulflix{
+
+    position: absolute ;
+    padding-left: 40px;
+    left: -1em;
+    overflow:hidden;
+    z-index: 1;
+}
+
+
+.div_nulflix_titre{
+
+  padding-left: 32em;
+}
+
+.text_mate{
+    padding-left: 200px;
+}
+
+.maindiv{
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    transform: translateY(-40%);    
+    z-index: 2;
+    
+  }
+
+  .login-button {
+    border-radius: 20px;
+    width: 600px;
+    height: 120px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Amatic SC';font-size: 75px;
+  }
+  
+  .sign_button{
+    background-color: #FE0606;
+    border-radius: 20px;
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Amatic SC';font-size: 40px;
+
+  }
+  
+  
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .pa_sign{
+
+
+    text-align: center;
+  }
+  
+  .center_pasinscrit{
+    transform: translateY(-1200%)
+  }
+
+  .center_signin{
+    transform: translateY(-600px);
+  }
+
+
+
+  #btn-hover:hover{
+    cursor: pointer ;
+    opacity: 15%;
+    
+  }
+
+
+  li{
+    list-style: none;
+  }
+
+
