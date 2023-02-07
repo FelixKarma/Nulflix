@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <title>formulaire contact</title>
 </head>
-<body>
+
+<body class="tailletext">
     <h1>CONTACT</h1>
     <form method="get">
-        <label for="fname">Nom* :<br>
-        <input type="text" id="name" placeholder="nom de famille" required></label><br>
-        <label for="fname">Prénom* : <br>
-        <input type="text" id="name" placeholder="Prénom" required></label><br>
-        <label for="email">Votre email : <br>
-        <input type="email" id="mail" placeholder="email" required></label><br>
+        <div class="containeur">
+
+            <div>
+                <label for="fname">Nom* :<br></label>
+                <input type="text" id="name" placeholder="nom de famille" required class="coin"><br>
+            </div>
+            <div>
+                <label for="fname" class="marge">Prénom* : <br></label>
+                <input type="text" id="name" placeholder="Prénom" required class="coin"><br>
+            </div>
+            <div>
+        <label for="email">Votre email :<br>
+                <input type="email" id="mail" placeholder="email" required class="coin" class="tail"></label><br>
+            </div>
+        </div>
+
+            <div class="margin">
         <label for="message"> Votre message <br>
-        <textarea name="mess" id="mess" cols="50" rows="20"></textarea></label><br>
-        <label for="cgu"><input type="radio" name="cgu" id="cgu">J'accepte les conditions générales d'utilisation</label><br>
-        <input type="button" value="Envoyer">
+            <textarea name="mess" id="mess" cols="100" rows="10" class="coin"></textarea></label><br>
+            <div class="margin"></div>
+        <label for="cgu"><input type="radio" name="cgu" id="cgu">J'accepte les conditions générales
+            d'utilisation</label><br>
+            <div class="margin"></div>
+        <input type="button" value="Envoyer" class="button">
+
     </form>
 
 </body>
+
 </html>
