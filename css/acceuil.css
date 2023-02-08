@@ -1,0 +1,151 @@
+
+body{
+    background-color: rgb(124, 3, 3);
+    background-image: url(../image/spider-man-miles-4k-oj-2880x1800.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: sticky;
+    border: 5px ;
+    padding: 20px;
+    
+}
+
+
+img{
+    border-radius: 25px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+}
+
+h1{
+    color: rgb(227, 6, 6);
+    font-family: fantasy;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 200px;
+    
+}
+
+
+.btn{ 
+  
+
+
+
+        border: none;
+        font-size: 70px;
+        font-family:fantasy;
+        background: none;
+        cursor: pointer;
+        padding: 25px 80px;
+        height: 200px;
+        width: 700px;
+        display: inline-block;
+        margin: 15px 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.5s;
+        border-radius: 80px;
+      }
+    
+      .btn:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        
+    
+      }
+    
+    
+      .btn-sep:before {
+        background: rgba(0,0,0,0.15);
+    
+        /* Button 1 */
+      }
+  .btn-1 {
+    background: #8a8a8a75;
+    color: rgb(0, 0, 0);
+  }
+
+  .btn-1:hover {
+    background: #313131f3;
+  }
+      
+
+
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(226, 43, 43);
+    padding: 20px;
+
+}
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgb(0, 0, 0); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b73333;
+  display: block;
+  transition: 0.3s;
+  font-family: fantasy;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.CHARABIA{
+  color: red;
+  font-family: fantasy;
+  font-size: 50px;
+}
