@@ -1,6 +1,21 @@
 body{
     margin: 0px;
+    overflow-x: hidden;
 }
+
+main {
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
 
 .form-inline .text {
   border: none;
@@ -19,7 +34,6 @@ body{
     background-color: #a4a4a4;
     color: #000;
     border: none;
-    position: relative;
     left: -18%;
 }
 
@@ -72,14 +86,14 @@ body{
   }
 
   .pos{
-    position: fixed;
-    left: 2.5%;
+    /* position: fixed;
+    left: 2.5%; */
     margin-top: 10px;
   }
 
 .select{
     position: fixed;
-    left: 11%;
+    left: 12%;
     margin-top: 8px;
     border-radius: 50px;
     background-color: #000000;
@@ -106,13 +120,14 @@ body{
 
 footer{
   background-color: #000000;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Left-footer{
-  position: fixed;
   left: 2.5%;
   margin-top: 15px;
   font-family: "Amaranth", sans-serif;
