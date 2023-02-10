@@ -1,10 +1,11 @@
 body{
     margin: 0px;
+    overflow-x: hidden;
 }
 
 main {
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -85,14 +86,14 @@ header {
   }
 
   .pos{
-    position: fixed;
-    left: 2.5%;
+    /* position: fixed;
+    left: 2.5%; */
     margin-top: 10px;
   }
 
 .select{
     position: fixed;
-    left: 11%;
+    left: 12%;
     margin-top: 8px;
     border-radius: 50px;
     background-color: #000000;
