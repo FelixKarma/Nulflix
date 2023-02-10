@@ -2,6 +2,20 @@ body{
     margin: 0px;
 }
 
+main {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+
 .form-inline .text {
   border: none;
   border-radius: 20px;
@@ -19,7 +33,6 @@ body{
     background-color: #a4a4a4;
     color: #000;
     border: none;
-    position: relative;
     left: -18%;
 }
 
@@ -106,13 +119,14 @@ body{
 
 footer{
   background-color: #000000;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .Left-footer{
-  position: fixed;
   left: 2.5%;
   margin-top: 15px;
   font-family: "Amaranth", sans-serif;
