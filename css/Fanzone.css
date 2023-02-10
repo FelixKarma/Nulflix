@@ -5,6 +5,7 @@
   color: white;
   font-size: 25px;
   font-weight: bold;
+  font-family: 'Amatic SC', cursive
 }
 
 .items-center {
@@ -39,12 +40,17 @@ body {
 
 h1 {
   text-align: center;
-  color: #e50914;
-  font-size: 60px;
-  font-weight: bold;
+  color: #e50914 !important;
+  font-size: 60px !important;
+  font-family: 'Amatic SC', cursive
+  
+  
 }
 
 a {
   text-decoration: none;
   color: #f9f7f7 !important;
 }
+a:hover{
+color: grey !important;
+  }
