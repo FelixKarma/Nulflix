@@ -3,6 +3,9 @@ h1{
     font-size:700%;
     font-family:"Amatic SC", cursive;
 }
+main {
+    margin-left: 30px;
+}
 .zoom img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
