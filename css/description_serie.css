@@ -1,0 +1,9 @@
+body{
+    background-color: #1D252F;
+}
+
+img.cover-serie{
+    height: 400px;
+    position: relative;
+    top: 150px;
+}
