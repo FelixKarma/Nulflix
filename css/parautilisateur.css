@@ -25,12 +25,14 @@ body{
   background-color: rgb(1,1,24);
   font-family:'Amatic SC', cursive
 }
+
 form{
   color: #dddddd;
   font-size: 40px;
   font-weight: bold;
  
     }
+    
 label{
     padding-bottom: 50px;
     

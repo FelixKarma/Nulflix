@@ -20,9 +20,6 @@ header {
 .form-inline .text {
   border: none;
   border-radius: 20px;
-  padding: 0.5rem;
-  padding-left: 50px;
-  padding-right: 50px;
   margin-right: 0.5rem;
   flex-grow: 1;
   background-color: #ffffffa4;
@@ -35,6 +32,9 @@ header {
     color: #000;
     border: none;
     left: -18%;
+    border-radius: 20px;
+    height: 42px;
+    width: 298.4px;
 }
 
 .form-inline button[type="submit"] {
