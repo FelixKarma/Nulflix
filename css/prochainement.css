@@ -1,3 +1,28 @@
+h1 {
+    color: #E50914 !important;
+    font-size: 700% !important;
+    font-family: "Amatic SC", cursive;
+}
+
+main {
+    margin-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.zoom img {
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.zoom :hover img {
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 99;
+}
+
+
 body{
     margin: 0px;
     overflow-x: hidden;
@@ -20,6 +45,9 @@ header {
 .form-inline .text {
   border: none;
   border-radius: 20px;
+  padding: 0.5rem;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-right: 0.5rem;
   flex-grow: 1;
   background-color: #ffffffa4;
@@ -32,9 +60,6 @@ header {
     color: #000;
     border: none;
     left: -18%;
-    border-radius: 20px;
-    height: 42px;
-    width: 298.4px;
 }
 
 .form-inline button[type="submit"] {
