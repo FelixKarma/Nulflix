@@ -35,6 +35,7 @@ nav {
 
 }
 
+
 p {
   color: #dddddd;
   font-size: 40px;
@@ -184,4 +185,9 @@ footer{
   color: rgb(255, 255, 255);
   padding: 20px;
   text-decoration: none;      
+}
+
+
+a{
+  text-decoration: none;
 }

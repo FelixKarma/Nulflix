@@ -1,9 +1,77 @@
 body{
     background-color: #1D252F;
+    overflow: hidden;
+    font-family: Amatic SC;
 }
 
-img.cover-serie{
-    height: 400px;
-    position: relative;
-    top: 150px;
+.titre h1{
+    color: azure;
+    text-align: center;
 }
+
+.witcher_contain{
+    border: solid 5px chartreuse;
+    display: flex;
+}
+
+.the-witcher-img{
+    width: 12em;
+    height: 18em;
+    
+}
+
+
+.contain_img{
+    border: 2px solid rgb(251, 249, 249);
+}
+
+.logo_bd_titre{
+    gap: 10px;
+    border: rgb(10, 224, 213) solid 5px;
+    display: flex;
+    align-items: center;
+}
+
+.contain_bd{
+    border: 5px solid red;
+    margin-left: 35px;
+
+}
+
+.button_bd{
+    background: none; 
+    border: none; 
+    cursor: pointer;
+}
+
+.play_ba{
+    width: 40px;
+}
+
+.bd_text{
+    color: red;
+
+}
+
+.video_bd{
+    border: solid yellow 5px;
+    align-self: flex-end;
+    display:none;
+}
+
+.iframe_bd{
+    /*width : 560px;
+    height : 315px;*/
+
+    width: 0px;
+    height: 0px;
+}
+
+.bd_transition{
+    width: 560px;
+    height: 315px;
+
+    transition: width 2s;
+    transition: height 5s;
+}
+
