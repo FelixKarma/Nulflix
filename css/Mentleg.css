@@ -2,7 +2,8 @@
   max-width: 700px;
   margin: 0 auto;
   text-align: justify; 
-  font-size: 20px
+  font-size: 20px;
+  
 }
 
 .items-center{
@@ -32,13 +33,15 @@
 
 body{
   background-color: rgb(1,1,24);
-  font-family:'Amatic SC', cursive
+  font-family:'Amatic SC', cursive;
+  
   }
   
   h1{ 
 text-align: center;
 color: #e50914;
 font-size: 50px;
+
   }
 
   p{
