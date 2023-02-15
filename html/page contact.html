@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contact.css"/>
+    <link rel="stylesheet" href="../css/contact.css" />
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
-<body class="tailletext">
-    <h1 class="text-center">Nous contacter</h1><br>
 
-    <h3 class="text-center">Par courrier</h3><br>
+<body>
+    <h1>Nous contacter</h1><br>
 
-    <h3 class="text-center">Par téléphone</h3><br>
-
-    <h3 class="text-center">Par mail</h3><br>
-</body>
+    <button class="zonequestion" onclick="myFunction(0)">Par courrier</button>
+    <div class="centrerer">
+        <div class="zonereponse" id="myDIV1">
+            <p>Nulflix </p>
+            <p>350 rue des Inconnues</p>
+            <p>59000 LILLE</p>
+        </div><br>
+    </div>
+    
+    <button class="zonequestion tel" onclick="myFunction(1)">Par téléphone</button>
+    <div class="centrerer">
+        <div class="zonereponse" id="myDIV2">
+            <p>0320995577</p>
+        </div><br>
+    </div>
+    <a href="../html/formulaire contact.html">
+        <button class="zonequestion">Par mail</button><br>
+    </a>
+    
+    <script src="../js/contact.js"></script>
 </html>
+</body>
