@@ -27,3 +27,9 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.aligner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}

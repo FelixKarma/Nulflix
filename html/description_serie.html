@@ -10,11 +10,47 @@
 <body>
 
 
-    <div class="cover">
-        <img class="cover-serie" src="../image/the_witcher.jpg" alt="">
+
+    <div class="titre">
+        <h1>The witcher (2019)</h1>
+    </div>
+
+        <div class = "witcher_contain">
+            <div class="contain_img">
+                <img class="the-witcher-img" src="../image/the_witcher.jpg" alt="image the witcher">
+
+            </div>
+
+        <div class = "contain_bd">
+
+            <div class="logo_bd_titre">
+                <button type="button" class = button_bd id="button_bd" onclick="fadeout ()"> 
+                <img src="../image/logo_play.png"  class="play_ba" alt="" >
+                </button>
+
+                <h3 class="bd_text">Bande annonce</h3>
+            </div>
+
+            <div class="video_bd" id="video_bd">
+                <iframe  id="iframe_bd" class="iframe_bd" src="https://www.youtube.com/embed/bGFpSNKtLlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </div>
+        </div>
     </div>
 
     
+    <script>
+        function fadeout(){
+            const square = document.getElementById("iframe_bd");
+            const display = document.getElementById("video_bd")
+
+            display.style.display="block"
+            square.style.width ="560px";
+            square.style.height ="315px";
+
+        }
+
+    </script>
     <script src="../js/ModeJN.js"></script>
 </body>
 </html>
