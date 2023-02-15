@@ -26,6 +26,11 @@ body{
     border-radius: 8px;
     background-color: darkgrey;
 }
+<<<<<<< HEAD
+.email{
+    padding-right: 60px;
+=======
 .tail{
     padding-right: 50px;
+>>>>>>> c6327d25415f49ae8618c578aa7c695ef1046617
 }
