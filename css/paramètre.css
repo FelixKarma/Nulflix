@@ -1,0 +1,42 @@
+.textcenter{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.div3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px; 
+}
+
+#boutonJourNuit{
+    margin-left: 100px;
+    border-radius: 50px;
+    padding-bottom: 5px;
+    background-color: #ff0000;
+    font-family: "Amarantic CS", sans-serif;
+}
+
+.cestnon{
+    margin-left: 166px;
+}
+
+.cestnon1{
+    margin-left: 160px;
+}
