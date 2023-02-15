@@ -69,3 +69,11 @@ nav {
   padding-left: 289px;
   margin-top: -52px;
 }
+
+.size_title{
+  font-size: 60px;
+}
+
+a{
+  text-decoration: none;
+}
