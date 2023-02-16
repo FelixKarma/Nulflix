@@ -1,7 +1,6 @@
 body{
     margin: 0px;
-    overflow: hidden;
-
+    overflow-x: hidden;
 }
 
 main {
@@ -16,7 +15,6 @@ header {
   width: 100%;
   z-index: 99;
 }
-
 
 .form-inline .text {
   border: none;
@@ -38,7 +36,6 @@ header {
     padding-left: 50px;
   padding-right: 50px;
   border-radius: 20px;
-  
 }
 
 .form-inline button[type="submit"] {
@@ -146,8 +143,6 @@ footer{
   text-decoration: none;
 }
 
-
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -175,7 +170,6 @@ footer{
 .sidenav ul li{
   font-size: 1.4em;
 }
-
 
 .sidenav .closebtn {
   position: absolute;
