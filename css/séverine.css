@@ -1,0 +1,12 @@
+body{
+    background-image: url(../image/404.jpg);
+    background-color: #ffffff;
+			color: #7FFF00;
+			font-family: sans-serif;
+            background-size: cover;
+}
+h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 10%;
+}
