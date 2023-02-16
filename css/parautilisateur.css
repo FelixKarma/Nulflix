@@ -28,7 +28,7 @@ body {
 
 form {
   color: #dddddd;
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   left: 298px;
   top: 200px;
@@ -65,8 +65,8 @@ nav {
 }
 
 .logo_fleche {
-  display: flex;
-  padding-left: 289px;
+  display: flex ;
+  padding-left: 250px;
   margin-top: -52px;
 }
 
