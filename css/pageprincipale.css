@@ -21,3 +21,25 @@ main {
   transform: scale(1.3);
   z-index: 99;
 }
+
+section{
+  background-image: url(../image/ecran.jpg);
+  background-repeat: no-repeat;
+   margin-left: 100px;
+   display: block;
+   height: 950px;
+}
+
+#une{
+  display: block;
+  margin-top: 0px;
+  margin-left: 500px;
+ 
+}
+#photo{
+  height:100px;
+  width: 1000px;
+  display: block;
+  text-align: center;
+  margin: 75px; 
+  }
