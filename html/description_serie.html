@@ -16,102 +16,41 @@
     </div>
 
         <div class = "witcher_contain">
-
-
-        <div style="border:4px solid brown">
             <div class="contain_img">
                 <img class="the-witcher-img" src="../image/the_witcher.jpg" alt="image the witcher">
 
             </div>
 
-            <div class="contain_stars">
+        <div class = "contain_bd">
 
-           
-            <a href="#5" title="Donner 5 étoiles">★</a>
-            <a href="#4" title="Donner 4 étoiles">★</a>
-            <a href="#3" title="Donner 3 étoiles">★</a>
-            <a href="#2" title="Donner 2 étoiles">★</a>
-            <a href="#1" title="Donner 1 étoile">★</a>
+            <div class="logo_bd_titre">
+                <button type="button" class = button_bd id="button_bd" onclick="fadeout ()"> 
+                <img src="../image/logo_play.png"  class="play_ba" alt="" >
+                </button>
+
+                <h3 class="bd_text">Bande annonce</h3>
             </div>
 
-            <div class="ouvoir">
-                <ul>
-                    <li>A voir sur :</li>
-                    <li><img src="../image/logo_netflix.png" alt=""></li>
-
-                </ul>
-            </div>
-
-        </div>
-
-
-
-            <div class="contain_frame_bd">
-
-            <div class = "contain_bd">
-
-                <div class="logo_bd_titre">
-                    <button type="button" class = button_bd id="button_bd" onclick="showVideo()"> 
-                    <img src="../image/logo_play.png"  class="play_ba" alt="lancer bande annonce" >
-                    </button>
-
-                    <h3 class="bd_text">Bande annonce</h3>
-                </div>
-
-                <div class="video_bd" id="video_bd">
-                    <iframe width="800" height="400" id="iframe_bd" class="iframe_bd" src="https://www.youtube.com/embed/bGFpSNKtLlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                </div>
-            </div>
-
-
-            <div class="contain_description">
-
-                <ul>
-                    <li><span class="title_des"> Type :</span> Série de Lauren Schmidt Hissrich · 2 saisons (En cours) · 1 h · 20 décembre 2019 (France)</li>
-                    <li><span class="title_des"> Diffuseur :</span> Netflix</li>
-                    <li><span class="title_des"> Genres :</span> <a href="aventure.html"> Aventure</a>, <a href="fantastique(jour).html"> Fantastique</a>, <a href="action.html">Action</a>, Drame</li>
-                    <li><span class="title_des"> Casting (acteurs principaux) :</span> Henry Cavill, Anya Chalotra, Freya Allan, Joey Batey, Eamon Farren, Mimi Ndiweni, Wilson Radjou-Pujalte, MyAnna Buring</li>
-                    <li><span class="title_des"> Pays d'origine :</span> États-Unis, Pologne, Hongrie, Espagne, Royaume-Uni</li>
-                    <li><span class="title_des"> Groupe :</span> Sorceleur</li>
-                    <li><span class="title_des"> Synopsis :</span>
-                        Le sorceleur Geralt, un chasseur de monstres mutant, se bat pour trouver sa place dans un monde où les humains se révèlent souvent plus vicieux que les bêtes. Adaptation de la saga littéraire du Sorceleur.
-                    </li>
-                </ul>
-            </div>
-
-            <div class="note_avis">
+            <div class="video_bd" id="video_bd">
+                <iframe  id="iframe_bd" class="iframe_bd" src="https://www.youtube.com/embed/bGFpSNKtLlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
             </div>
-
         </div>
     </div>
 
     
     <script>
+        function fadeout(){
+            const square = document.getElementById("iframe_bd");
+            const display = document.getElementById("video_bd")
 
-        function showVideo() {
-        var videoContainer = document.getElementById("video_bd");
-        var videoIframe = document.getElementById("iframe_bd");
-
-        // Afficher l'iframe avec une animation
-        videoContainer.style.display = "block";
-        
-        videoContainer.animate([{opacity: 0}, {opacity: 1}], {duration: 500});
-
-        // Agrandir l'iframe avec une animation
-        videoIframe.animate([{width: "0px"}, {width: "800px"}], {duration: 0}).onfinish = function() {
-            videoContainer.style.visibility = "visible";
-
-            // Une fois que la première animation est terminée, animer l'augmentation de la hauteur de l'iframe
-            videoIframe.animate([{height: "0px"}, {height: "315px"}], {duration: 300});
+            display.style.display="block"
+            square.style.width ="560px";
+            square.style.height ="315px";
 
         }
-    }
 
     </script>
-        
+    <script src="../js/ModeJN.js"></script>
 </body>
-
-
 </html>
