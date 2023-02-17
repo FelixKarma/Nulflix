@@ -22,24 +22,32 @@ main {
   z-index: 99;
 }
 
-section{
+.container{
   background-image: url(../image/ecran.jpg);
   background-repeat: no-repeat;
    margin-left: 100px;
    display: block;
    height: 950px;
+   width: 1000px;
+   margin-top: 0px;
 }
 
-#une{
+.child2{
   display: block;
   margin-top: 0px;
   margin-left: 500px;
  
 }
-#photo{
-  height:100px;
-  width: 1000px;
-  display: block;
-  text-align: center;
-  margin: 75px; 
+.child1{
+  background-image: url(../image/lastOfUs.png) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 1136px 605px;
+  height: 605px;
+  width:1136px;
+  margin-left: 62px;
+  margin-top: -30px;
+  
+  
+   
   }
