@@ -22,6 +22,34 @@ main {
   z-index: 99;
 }
 
+.container{
+  background-image: url(../image/ecran.jpg);
+  background-repeat: no-repeat;
+   margin-left: 100px;
+   display: block;
+   height: 950px;
+   width: 1000px;
+   margin-top: 0px;
+}
+
+.child2{
+  display: block;
+  margin-top: 0px;
+  margin-left: 500px;
+ 
+}
+.child1{
+  background-image: url(../image/lastOfUs.png) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 1136px 605px;
+  height: 605px;
+  width:1136px;
+  margin-left: 62px;
+  margin-top: -30px;
+  
+}
+   
 body{
     margin: 0px;
     overflow-x: hidden;
