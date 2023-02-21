@@ -82,6 +82,7 @@
   .bouton{
     width: 10%;
     height: 50px;
+    font-family: 'Amatic SC', cursive;
     font-size: 35px;
     background-color: #e50914;
   }

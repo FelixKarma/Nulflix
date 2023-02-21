@@ -87,8 +87,8 @@ header {
   }
 
   .pos{
-    /* position: fixed;
-    left: 2.5%; */
+    position: fixed;
+    left: 2.5%;
     margin-top: 10px;
   }
 
