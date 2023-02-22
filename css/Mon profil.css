@@ -27,14 +27,16 @@
 }
 
 body {
-  background-color: rgb(1, 1, 24) !important;
-  font-family: 'Amatic SC', cursive !important
+  /* background-color: rgb(1, 1, 24) !important; */
+  font-family: 'Amatic SC', cursive !important ;
+  font-size: 30px !important;
+  
 }
 
 nav {
   text-align: right;
   font-size: 60px;
-  color: #e50914;
+  /* color: #e50914; */
   display: flex;
   justify-content: space-between;
   font-weight: bold;
@@ -43,8 +45,12 @@ nav {
 
 
 h2 {
-  color: white !important;
+  /* color: white !important; */
   font-size: 40px !important;
+}
+textarea{
+  font-size: 20px !important;
+  font-family: 'Mukta', cursive !important
 }
 
 .img{

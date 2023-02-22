@@ -8,15 +8,31 @@
     <link rel="stylesheet" href="../css/faq.css">
     <title>foire aux questions</title>
 </head>
-<body class="body">
+<body class="body dir">
     <h1>FAQ</h1>
-    <p>Je n'ai pas reçu de mail de confirmation?</p>
-    <p>Une application mobile est-elle prévue?</p>
-    <p>Peut on vous suggérer des oeuvres?</p>
-    <p>Comment nous contacter?</p>
-    <p>J'ai perdu mon mot de passe.</p>
-    
+    <button class="zonequestion" onclick="myFunction(0)">Je n'ai pas reçu de mail de confirmation?</button>
+    <div class="centrerer">
+        <div class="zonereponse" id="rep0">
+            <p>Veuillez vérifier que votre adresse mail ne comporte aucune erreur</p></div>
+     </div>
+     <button class="zonequestion" onclick="myFunction(1)">Une application mobile est-elle prévue?</button>
+     <div class="centrerer">
+    <div class="zonereponse" id="rep1">Non,une application mobile n'est pas prévue pour le moment.</div>
+    </div>
+    <button class="zonequestion" onclick="myFunction(2)">Peut on vous suggérer des oeuvres?</button>
+    <div class="centrerer">
+    <div class="zonereponse" id="rep2">Non, on se gère de tout.</div>
+    </div>
+    <button class="zonequestion" onclick="myFunction(3)">Comment nous contacter?</button>
+    <div class="centrerer">
+    <div class="zonereponse" id="rep3"> En cliquant sur contact</div>
+    </div>
+    <button class="zonequestion" onclick="myFunction(4)">J'ai perdu mon mot de passe.</button>
+    <div class="centrerer">
+    <div class="zonereponse" id="rep4">Cliquer sur mot de passe oublié, un mail vous sera envoyé.</div>
+</div>
 
     <script src="../js/ModeJN.js"></script>
+    <script src="../js/faq.js"></script>
 </body>
 </html>

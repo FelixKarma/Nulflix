@@ -6,6 +6,12 @@ const comments = [];
 const commentInput = document.getElementById('avis');
 const button = document.getElementById('valider');
 const commentList = document.getElementById('listeavis');
+
+
+if (localStorage.getItem('listComm')) {
+    createElement();
+}
+
 button.addEventListener('click', () => {
   const object = {};
   if (commentInput.value != '') {
@@ -18,8 +24,8 @@ button.addEventListener('click', () => {
 });
 
 function createElement() {
-    let listComm = [];
-    listComm = localStorage.getItem('listComm');
+    commentList.innerHTML= "";
+    let listComm = JSON.parse( localStorage.getItem('listComm'));
     for (let comment of listComm) {
         const newComment = document.createElement('div');
         newComment.setAttribute('id', comment.id);
