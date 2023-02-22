@@ -212,8 +212,9 @@ h3{
   height: 60px;
   width: 100px;
   font-size: 30px;
-  color: #e50914;
-  margin-left: 100px;
+  color: black;
+  margin-left: 50px;
+  background-color: #e50914;
 }
 .dir{
   display: flex;

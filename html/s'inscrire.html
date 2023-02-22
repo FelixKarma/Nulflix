@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/inscrire.css">
-    <link rel="stylesheet" href="../js/s'inscrire.js">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet'
         type='text/css'>
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
@@ -15,30 +14,43 @@
 </head>
 
 <body>
-        
-    <a href="acceuil.html"><img height="50" width="50" src="../image/n.png" alt="Nulflix"></a>
-   
-    <div class="testbox">
-        <h1>S'INSCRIRE</h1>
 
-        <form action="/">
-            <hr>
-            
-            <hr>
-            <label id="icon" for="name"><i class="icon-envelope "></i></label>
-            <input type="text" name="name" id="name" placeholder="Email" required />
-            <label id="icon" for="name"><i class="icon-user"></i></label>
-            <input type="text" name="name" id="name" placeholder="Name" required />
-            <label id="icon" for="name"><i class="icon-shield"></i></label>
-            <input type="password" name="name" id="name" placeholder="Password" required />
-            <div class="gender">
-                <input type="radio" value="None" id="male" name="gender" checked />
-                <label for="male" class="radio" chec>Homme</label>
-                <input type="radio" value="None" id="female" name="gender" />
-                <label for="female" class="radio">Femme</label>
+    <div >
+    
+        <nav class="navbar">
+
+            <div class="div_nulflix">
+                <a href="acceuil.html"><h4 class="title" title="retour à l'accueil">NULFLIX</h4></a>
+                
             </div>
-            <p>en cliquant tu acceptes nos CGU poto !! <a href="Mentions Légales.html">thermes et conditions</a>.</p>
-            <a href="#" class="button">Inscription</a>
+
+
+            <div class="div_nulflix_titre">
+                <h1 class="title">...t’as pas d’idée pour ce soir?...NOUS OUI !</h1>
+            </div>
+                       
+        <form >
+            <h2>NULFLIX</h2>
+                    
+               
+            <label> Nom d'utilisateur </label><p2>(6 à 8 caractères min)</p2><br>
+            <input type="text" class="color"  style="margin-left: -10px;"required><br>
+            <label> Mot de passe </label><p2>(caractères spéciaux autorisés)</p2> <br>
+            <input type="password" class= "color" style="margin-left: -10px;"required><BR>
+            <label> Confirmation de mot de passe </label><p2>(caractères spéciaux autorisés)</p2> <br>
+            <input type="password"class= "color" style="margin-left: -10px;"required><BR>
+
+
+            <input type="radio" value="None" id="Homme" name="gender" />
+            <label for="Homme" class="radio">Homme</label>           
+                <input type="radio" value="None" id="female" name="gender" />
+                <label for="femme" class="radio">Femme</label><br>
+                <input type="checkbox"> <p>en cliquant tu acceptes nos CGU !!<a href="Mentions Légales.html"><br>
+                    thermes et conditions</a>.</p><br>
+                    <br>
+                        <div class="align_center center_signin">
+                <button class="sign_button"> <a href="Connexion" id="btn-hover">Inscription</a></button>
+            </div>
         </form>
     </div>
 </body>
