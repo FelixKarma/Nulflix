@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 main {
@@ -19,19 +19,16 @@ header {
 .form-inline .text {
   border: none;
   border-radius: 20px;
-
   margin-right: 0.5rem;
   flex-grow: 1;
   background-color: #ffffffa4;
   font-family: "Amaranth", sans-serif;
-  display: flex;
 }
 
 .input-text{
     background-color: #a4a4a4;
     color: #000;
     border: none;
-    left: -18%;
     padding: 0.5rem;
     padding-left: 50px;
   padding-right: 50px;
@@ -54,7 +51,6 @@ header {
     font-family: "Amaranth", sans-serif;
     height: 48px;
     font-size: 2rem;
-    text-decoration: none;
   }
   
 .right-side {

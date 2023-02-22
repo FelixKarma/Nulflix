@@ -1,41 +1,37 @@
-body{
+/* body{
     background-color: #1D252F;
     overflow: hidden;
     font-family: Amatic SC;
-}
+} */
 
 .titre h1{
-    color: azure;
+    color: rgb(188, 80, 41);
     text-align: center;
-}
-
-.witcher_contain{
-    border: solid 5px chartreuse;
-    display: flex;
+    /* padding-top: 70px; */
 }
 
 .the-witcher-img{
+    padding-top: 50px;
+    margin-left: 15px;
     width: 12em;
     height: 18em;
-    
 }
 
-
 .contain_img{
-    border: 2px solid rgb(251, 249, 249);
+    display: inline-block;
+    vertical-align: top;
 }
 
 .logo_bd_titre{
-    gap: 10px;
-    border: rgb(10, 224, 213) solid 5px;
     display: flex;
     align-items: center;
+    padding-top: 50px;
 }
 
 .contain_bd{
-    border: 5px solid red;
     margin-left: 35px;
-
+    display: inline-block;
+    vertical-align: top;
 }
 
 .button_bd{
@@ -50,19 +46,16 @@ body{
 
 .bd_text{
     color: red;
-
 }
 
 .video_bd{
-    border: solid yellow 5px;
     align-self: flex-end;
     display:none;
 }
 
 .iframe_bd{
-    /*width : 560px;
-    height : 315px;*/
-
+    /* width : 560px;
+    height : 315px; */
     width: 0px;
     height: 0px;
 }
@@ -70,8 +63,12 @@ body{
 .bd_transition{
     width: 560px;
     height: 315px;
-
     transition: width 2s;
     transition: height 5s;
+}
+
+p{
+    font-size: x-large;
+    margin-left: 15px;
 }
 
