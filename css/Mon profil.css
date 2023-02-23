@@ -231,3 +231,6 @@ h3{
 .text-white{
   color: white;
 }
+.carousel-control-prev{
+  color: #000000 !important;
+}
