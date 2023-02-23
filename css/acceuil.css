@@ -149,3 +149,12 @@ main{
   font-family: fantasy;
   font-size: 50px;
 }
+
+h2{
+  color: #E50914;
+font-family: amatic sc;
+font-size: 500%;
+text-align: center;
+margin-top: 0%;
+font-weight: 1000;
+}
