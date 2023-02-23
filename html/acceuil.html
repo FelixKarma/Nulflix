@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/acceuil.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 
 
 
@@ -14,34 +16,85 @@
 
 <body>
 
-    <script src="../js/exercice.js"></script>
 
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidena" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">FAQ</a>
-        <a href="#">CONTACT</a>
-        <a href="#">MENTION LEGAL</a>
-      </div>
-      
-      <!-- Use any element to open the sidenav -->
-      <span class="CHARABIA" onclick="openNav()">N</span>
-      
-      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-      <div id="main">
-        
-      </div>    
+        <a href="../html/faq.html">FAQ</a>
+        <a href="../html/page contact.html">CONTACT</a>
+        <a href="#" onclick="openCGU()">MENTION LEGAL</a>
+    </div>
 
-    
+    <!-- Use any element to open the sidenav -->
+    <span class="CHARABIA" onclick="openNav()">N</span>
 
-         
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
 
-   <center><h1>NULFLIX</h1></center> 
+    </div>
+
+
+
+
+
+    <center>
+        <h1>NULFLIX</h1>
+    </center>
 
     <center>
 
-       <a href="inscription.html">  <button type="button" class="btn btn-1 btn-sep"> Entrer ! </button> </a>
-</center>
+        <a href="inscription.html"> <button type="button" class="btn btn-1 btn-sep"> Entrer ! </button> </a>
+    </center>
+    <div>
+
+        <div id="mySide" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeCGU()">&times;</a>
+            <ul>
+                <li>En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie
+                    numérique,
+                    il est précisé aux utilisateurs du site nulflix.com l’identité des différents intervenants dans le
+                    cadre de sa
+                    réalisation et de son suivi :
+                </li>
+                <br>
+
+                <li>L’utilisation du site Nulflix.com implique l’acceptation pleine et entière des conditions générales
+                    d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou
+                    complétées
+                    à tout moment, les utilisateurs du site Nulflix.com sont donc invités à les consulter de manière
+                    régulière.
+                    Elles s’imposent donc à l’utilisateur qui est invité à s’y référer le plus souvent possible afin
+                    d’en prendre
+                    connaissance.</li>
+                <br>
+
+                <li>Le site utilise la technologie JavaScript.
+                    Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site.
+                    De plus,
+                    l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas
+                    de virus et
+                    avec un navigateur de dernière génération mis-à-jour.</li>
+                <br>
+                <li>Toutes ressemblances a un site ou a un logiciel propageant du contenue similaire est totalement
+                    fortuite...
+                    #netflixdewish</li>
+
+            </ul>
+        </div>
 
 
+    </div>
+    <script>
+
+        function openCGU() {
+            document.getElementById("mySide").style.width = "100%";
+        }
+
+        function closeCGU() {
+            document.getElementById("mySide").style.width = "0";
+        }
+
+    </script>
+    <script src="../js/exercice.js"></script>
 </body>
+
 </html>
