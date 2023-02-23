@@ -1,42 +1,18 @@
-body {
+ body {
   background-color: rgb(0, 0, 0);
-}
-
-
-
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-fieldset,
-input,
-textarea,
-p,
-blockquote,
-th,
-td {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
+
 
 fieldset,
 img {
   border: 0
 }
 
-ol,
-ul,
+/* ol,
+ul, */
 li {
   list-style: none
 }
@@ -44,18 +20,17 @@ li {
 :focus {
   outline: none
 }
-
 body,
 input,
 textarea,
 select {
   font-family: "amatic sc";
-  font-size: 16px;
+  font-size: 30px;
   color: #ffffff;
 }
 
 p {
-  font-size: 12px;
+  font-size: 20px;
   width: 150px;
   display: inline-block;
   margin-left: 18px;
@@ -71,7 +46,7 @@ h1 {
 
 
 
-l input[type=radio]:checked+label:after {
+input[type=radio]:checked+label:after {
   opacity: 1;
 }
 
@@ -88,14 +63,12 @@ hr {
 
 
 .div_nulflix_titre {
-  padding-left: 32em;
-
-
+  padding-left: 30%
 }
 
-H2 {
+h2 {
   color: #FE0606;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
 }
 
@@ -109,16 +82,18 @@ input {
 
 form {
   color: #dddddd;
-  font-size: 40px;
-  position: absolute;
-  left: 550px;
-  top: 80px;
+  font-size: 30px;
+  /* position: absolute; */
+  /* left: 550px;
+  top: 80px; */
+  display: flex;
   flex-direction: column;
+  align-items:  center;
   margin-bottom: 50px;
 }
 
 label {
-  font-size: 20px;
+  font-size: 30px;
 
 }
 
@@ -131,9 +106,6 @@ label {
 
 }
 
-.sign_button {
-  text-align: center;
-}
 
 .login-button {
   border-radius: 20px;
@@ -149,12 +121,12 @@ label {
 .sign_button {
   background-color: #FE0606;
   border-radius: 20px;
-  width: 400px;
+  width: 500px;
   height: 60px;
-  font-size: 20px;
+  font-size: 50px;
   position: relative;
   font-family: 'Amatic SC';
-  font-size: 40px;
+  text-align: center;
 
 }
 
@@ -222,23 +194,20 @@ a.button:hover {
 
 .title {
 
-  /* display: inline; */
+  display: inline;
   font-family: 'Amatic SC';
   font-size: 40px;
   color: aliceblue;
-}
-
-p2 {
-  font-size: 10px;
-}
-
-H2 {
-  color: #FE0606;
-  font-size: 80px;
-  text-align: center;
+  margin: 0;
 }
 
 .color{
   color: black;
+} 
+
+.gren{
+  display: flex;
+  justify-content: space-evenly ;
+  width: 50%;
 }
 

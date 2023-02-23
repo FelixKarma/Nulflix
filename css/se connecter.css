@@ -19,13 +19,13 @@ input,
 textarea,
 select {
   font-family: "amatic sc";
-  font-size: 16px;
+  font-size: 30px;
   color: #000000;
 }
 
 p {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   width: 150px;
   display: inline-block;
   margin-left: 0px;
@@ -112,7 +112,7 @@ a.button:hover {
 
 
 .div_nulflix_titre {
-  padding-left: 32em;
+  padding-left: 30%;
   
   
 }
@@ -132,7 +132,7 @@ input {
 }
 form {
   color: #dddddd;
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
   left: 550px;
   top: 240px;
@@ -140,7 +140,7 @@ form {
 }
 
 label {
-  font-size: 20px;
+  font-size: 30px;
 
 }
 .button-container {

@@ -6,52 +6,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/inscrire.css">
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet'
-        type='text/css'>
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+
     <title>S'INSCRIRE</title>
 </head>
 
 <body>
 
-    <div >
-    
+    <div>
+
         <nav class="navbar">
 
             <div class="div_nulflix">
-                <a href="acceuil.html"><h4 class="title" title="retour à l'accueil">NULFLIX</h4></a>
-                
+                <a href="acceuil.html">
+                    <h4 class="title">NULFLIX</h4>
+                </a>
+
             </div>
-
-
             <div class="div_nulflix_titre">
                 <h1 class="title">...t’as pas d’idée pour ce soir?...NOUS OUI !</h1>
             </div>
-                       
-        <form >
-            <h2>NULFLIX</h2>
-                    
-               
-            <label> Nom d'utilisateur </label><p2>(6 à 8 caractères min)</p2><br>
-            <input type="text" class="color"  style="margin-left: -10px;"required><br>
-            <label> Mot de passe </label><p2>(caractères spéciaux autorisés)</p2> <br>
-            <input type="password" class= "color" style="margin-left: -10px;"required><BR>
-            <label> Confirmation de mot de passe </label><p2>(caractères spéciaux autorisés)</p2> <br>
-            <input type="password"class= "color" style="margin-left: -10px;"required><BR>
+
+        </nav>
+            <form>
+                <h2>NULFLIX</h2>
 
 
-            <input type="radio" value="None" id="Homme" name="gender" />
-            <label for="Homme" class="radio">Homme</label>           
-                <input type="radio" value="None" id="female" name="gender" />
-                <label for="femme" class="radio">Femme</label><br>
-                <input type="checkbox"> <p>en cliquant tu acceptes nos CGU !!<a href="Mentions Légales.html"><br>
-                    thermes et conditions</a>.</p><br>
-                    <br>
-                        <div class="align_center center_signin">
-                <button class="sign_button"> <a href="Connexion" id="btn-hover">Inscription</a></button>
-            </div>
-        </form>
+                <label> Nom d'utilisateur (6 à 8 caractères min)<br>
+                    <input type="text" class="color" style="margin-left: -10px;" required></label><br>
+                <label> Mot de passe (caractères spéciaux autorisés) <br>
+                    <input type="password" class="color" style="margin-left: -10px;" required></label><BR>
+                <label> Confirmation de mot de passe (caractères spéciaux autorisés) <br>
+                    <input type="password" class="color" style="margin-left: -10px;" required></label><BR>
+
+
+                <div class="gren">
+                    <label for="Homme" class="radio">
+                        <input type="radio" value="None" id="Homme" name="gender" />
+                        Homme</label>
+                    <label for="femme" class="radio">
+                        <input type="radio" value="None" id="femme" name="gender" />
+                        Femme</label>
+
+                    <label for="autre" class="radio">
+                        <input type="radio" value="None" id="autre" name="gender" />Autre
+                    </label>
+                </div>
+
+                <label><input type="checkbox"> En cliquant tu acceptes nos CGU !!<a href="Mentions Légales.html"><br>
+                        termes et conditions</a></label>
+                <br>
+                <div class="align_center center_signin">
+                    <button class="sign_button"> <a href="Connexion" id="btn-hover">Inscription</a></button>
+                </div>
+            </form>
     </div>
 </body>
 
