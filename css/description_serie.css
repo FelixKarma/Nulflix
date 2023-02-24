@@ -75,3 +75,8 @@ p{
     font-family: 'Mukta', cursive !important
 }
 
+.fav{  
+   position: absolute;
+   left: 135px;
+   margin-top: 10px;
+}
