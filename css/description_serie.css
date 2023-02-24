@@ -71,6 +71,9 @@ p{
     font-size: x-large;
     margin-left: 15px;
 }
+.ecriture{
+    font-family: 'Mukta', cursive !important
+}
 
 .fav{  
    position: fixed;
