@@ -76,7 +76,7 @@ p{
 }
 
 .fav{  
-   position: fixed;
+   position: absolute;
    left: 135px;
-   margin-top: 10px;
+   margin-top: 150px;
 }
