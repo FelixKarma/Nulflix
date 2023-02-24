@@ -22,12 +22,12 @@
 }
 
 body {
-  background-color: rgb(1, 1, 24);
+  /* background-color: rgb(1, 1, 24); */
   font-family: 'Amatic SC', cursive
 }
 
 form {
-  color: #dddddd;
+  /* color: #dddddd; */
   font-size: 40px;
   position: absolute;
   left: 298px;
